@@ -1,0 +1,70 @@
+body {
+  background-image: url('/green.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 100%; */
+  margin: 0;
+  background-color: black;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  padding: 20px;
+  background: white;
+}
+
+.bg {
+  /* The image used */
+
+  /* Full height */
+  /* width: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 50%; */
+  /* background: black; */
+}
+
+.bg h1 {
+  color: lime;
+}
+.bg h2 {
+  color: yellow;
+  text-shadow: 2px 2px 8px #000000;
+}
+.bg h3 {
+  color: yellow;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.tbg {
+  /* The image used */
+  background-image: url('/thank-you.jpg');
+
+  /* Full height */
+  height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 50%; */
+  color: white;
+}
+
+.tbg h1 {
+  color: lime;
+}
+.tbg h2 {
+  color: yellow;
+}
+.tbg h3 {
+  color: white;
+}

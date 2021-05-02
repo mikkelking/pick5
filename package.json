@@ -1,0 +1,42 @@
+{
+  "homepage": "http://almsford.org/",
+  "dependencies": {
+    "antd": "latest",
+    "axios": "^0.19.2",
+    "debug": "^4.1.1",
+    "moment": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "keywords": [],
+  "name": "pick5",
+  "description": "Top 5 stock picks",
+  "version": "1.3.1",
+  "devDependencies": {
+    "cypress": "^4.0.1",
+    "react-scripts": "3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "cypress:open": "./node_modules/cypress/bin/cypress open",
+    "cypress:run": "./node_modules/cypress/bin/cypress run --config integrationFolder=tests/cypress/integration",
+    "push": "rsync build/* -rtuvzg -e 'ssh  -p18765' tritonte@back2bikes.com.au:/home/tritonte/public_html/almsford.org/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
